@@ -1,0 +1,80 @@
+ALGOL
+ - Scope Stack
+ - First langauge with recursion support
+ - 
+
+COBOL
+ - Designed by DoD for business applications
+ - Based on flowmatic, designed by Grace Harper
+ - First language to allow Record types
+
+BASIC
+ - Beginners All Purpose Instruction Code
+ - Easy to learn for 'non-techies'
+ - Free (As in Beer)
+
+PL/I
+ - ALGOL60 + Fortran IV + COBOL60
+ - Bloated Garbage language
+ - Died out in the 70's
+
+SNOBOL
+ - Text processing language
+
+SIMULA 67
+ - Provided great data abstractions
+ - Introduced concept of 'Classes'
+
+PASCAL
+ - Stressed simplicity, and expressivity
+
+C
+ - Stressed flexibility
+ - Became the Lingua Franca of Computer Science
+
+Prolog
+ - 70's Nonprocedural
+ - Provide facts, language builds deductions from those facts
+
+Ada
+ - DoD worked seperately on over 450 languages
+ - Asked for propsals from around the world
+ - Based on Pascal, included packages, data abstraction
+ - Extensive exception handling
+ - Generic programming units
+ - Concurrent execution of tasks
+
+============================================================
+=== 09/26/2018 ===================================== C++ ===
+
+Objects:
+  - Car  a();			// Object on the stack
+  - Car* b = new Car();	// Object on the heap
+
+  - a.model  = "Ford";	// Because stack
+  - b->model = "Ford";	// Because heap
+
+  - C/C++ are pass by value
+  - Functions shouldn't pass objects:
+    - by copy, becuase they are larger, take longer
+    - by reference, because the object *gets destroyed* on
+      function exit
+  - They should pass by pointer
+    - Typically create the object to be passed by
+      generating it on the heap, then return it's pointer
+
+  - All objects are given default:
+    - Copy, Move constructors
+    - Copy, Move operators	( operator= )
+    - Destructers
+
+  - Beware the 'Shallow Copy'
+    - If 'a' contains a pointer, and you try to copy 'a'
+      into 'b', then 'a' and 'b' will both point towards
+      the same memory location. 'b' will not point towards
+      it's own owned value.
+
+  - Allocate/Free memory with:
+    - new/delete
+    - new []/delete[]	(for arrays)
+

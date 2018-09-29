@@ -1,0 +1,25 @@
+[[Movement]]:
+  h	Move cursor left
+  j	Move cursor down
+  k	Move cursor up
+  l	Move cursor right
+[[Search]]:
+  * Move to the next word that matches what the cursor is sitting on
+  / Search forward for [pattern]
+  ? Search backward for [pattern]
+  n move to next search match
+  N move to previous search match
+  :%s/OLDTEXT/NEWTEXT/g	Replace all occurences of OLDTEXT with NEWTEXT
+  :%s/OLDTEXT/NEWTEXT/gc	Same as above, but ask for confirmations
+[[Macros]]:
+[[Folding]]:
+  zf#j	Creates a fold from the cursor down # lines
+  zf/TEXT	Creates a fold from the cursor until TEXT is matched
+  zj	Move cursor to next fold
+  za	Toggle the selected fold
+  zo	Opens the seleceted fold
+  zO	Opens all folds
+  zc	Closes the selected fold
+  zM	Closes all folds
+  zd	Deletes fold
+[[Ex Mode]]:
