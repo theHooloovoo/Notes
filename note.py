@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import datetime
 import os   # Find files/directories
 import sys  # Access command arguments
 from subprocess import call # Run shell commands internally
@@ -17,8 +18,13 @@ def main():
     elif len(sys.argv) == 2 :
         if   sys.argv[1] == "push":
             print("This will commit and push the git repo")
+            today = datetime.datetime.today()
+            call(["git", "add", "."])
+            call(["git", "commit", "-m", "Updated notes. {:%Y-%m-%d %H:%M:%S}".format(today)])
+            call(["git", "push", "origin", "master"])
         elif sys.argv[1] == "pull":
             print("This will pull the remote repo and overwrite the local notes")
+            call(["git", "pull"])
         elif sys.argv[1] == "ls":
             call(["ls", note_dir])
         else:
@@ -30,17 +36,16 @@ def main():
             else:
                 print("Woah,", sys.argv[1], "doesn't exsist!")
                 call(["ls", note_dir])
-                sys.exit()
-                # y_list = ["y", "yes", "yup", "yea",  "yeah"]
-                # n_list = ["n", "no", "nope", "nay"]
-                # response = input().lower()
-                # if   response in y_list:
-                #     call(["vim", f_in])
-                # elif response in n_list:
-                #     sys.exit()
-                # else:
-                #     print("Couldn't parse that, but exiting anyway.")
-                #     sys.exit()
+                y_list = ["y", "yes", "yup", "yea",  "yeah"]
+                n_list = ["n", "no", "nope", "nay"]
+                response = input().lower()
+                if   response in y_list:
+                    call(["vim", f_in])
+                elif response in n_list:
+                    sys.exit()
+                else:
+                    print("Couldn't parse that, but exiting anyway.")
+                    sys.exit()
     else:
         f_in = note_dir + sys.argv[2]
         if   sys.argv[1] == "cat":
