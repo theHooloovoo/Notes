@@ -78,3 +78,42 @@ Objects:
     - new/delete
     - new []/delete[]	(for arrays)
 
+============================================================
+=== 10/03/2018 ======================== Scope & Bindings ===
+
+Names:
+  - Names only exist for our benefit
+  - Fortran had a character limit of 31
+  - C technically has a char limit of 63, but the compiler doesn't care
+  - Being allowed to not follow naming conventions can fuck with readability
+  - Certain languages forbid the use of reserved words as variable names
+  - Variables can be seen as a tuple of:
+    - Name
+    - Address
+    - Value
+    - Type
+    - LifeTime
+    - Scope
+  - Address:
+    - The Address of a variable is it's 'l-value'
+    - When a single address is reffered to by more than one name, it's called an 'alias'
+    - Aliases make debugging much harder to find were errors occur
+  - Type:
+    - determine both the range of values of a variable, and the operations that may be performed on it.
+  - Value:
+    - It's actually difficult to get the value out of a variable
+  - Binding:
+    - Occurs at language design/implementation, compile time, etc...
+    - Static variables are bound at compile time.
+    - In order for a binding to occur, memory needs to be allocated.
+    - Dynamic variables are not bound to an address for the entirety of the programs runtime
+    - Stack-Dynamic variables are variables that are statically bound but created when they are elaborated.
+      - Function calls are a good example of these
+      - Recursive functions would have their variables overwritten at every iteration)
+
+============================================================
+=== 10/05/2018 =============================================
+
+============================================================
+=== 10/08/2018 =============================================
+

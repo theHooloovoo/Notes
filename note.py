@@ -38,6 +38,7 @@ def main():
                 call(["ls", note_dir])
                 y_list = ["y", "yes", "yup", "yea",  "yeah"]
                 n_list = ["n", "no", "nope", "nay"]
+                print("Do you want to make it? (Y/n) ")
                 response = input().lower()
                 if   response in y_list:
                     call(["vim", f_in])
