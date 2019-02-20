@@ -1,9 +1,55 @@
+
+Imperative Programming:
+ - meaning gives commands to change state
+Procdural Programming:
+ - meaning the ability to structure
+Object-Oriented Programming:
+ - Collects state and behavior of data structures into a
+   single entity
+Functional Programming:
+ - Programming that hinges upon the use of higher-order
+   functions
+
+Plankalkul:
+ - Konrad Zuse lived in a bavarian village
+ - Made a computer called the Z4
+ - Means 'Program Calculus'
+ - Made for his Ph.D dissertation in 1945
+   - Not published until 1972
+ - Included types for bits, arrays & record types
+ - Wrote a chess playing algorithm
+
+Grace Hopper:
+ - Was a god
+ - U.S. Navy Rear Admiral
+ - "Amazing Grace"
+ - Consulted on COBOL, based her language FLOW-MATIC
+ - 40+ honorary degrees from around the world
+ - Has a National Medal of Technology
+
+FORTRAN:
+ - IBM 704: First computer to have hardware support
+   for floating point numbers
+   - Lead to the creation LISP
+ - Couldn't compile files seperately (initially)
+ - Still updated to this day
+
+LISP:
+ - Stands for LISt Processor
+ - Functional Programming Laguage
+ - Written for AI
+ - The only data structures are atoms and lists
+ - Lacks mutable variables
+ - No loops, uses recursion instead
+
 ALGOL
  - Scope Stack
  - First langauge with recursion support
- - 
+ - allowed passing parameters by value or name
+ - used block structure for scoping
 
 COBOL
+ - COmmon Business Oriented Language
  - Designed by DoD for business applications
  - Based on flowmatic, designed by Grace Harper
  - First language to allow Record types
@@ -31,10 +77,21 @@ PASCAL
 C
  - Stressed flexibility
  - Became the Lingua Franca of Computer Science
+ - Written in the 70's by Dennis Ritchie for unix
+ - Based on B/BCPL a language with no types
+ - Introduced array indexing via brackets
+   And the ++ operator (From Ken Thompson)
+ - Imperative Procedural Language
+   - Imperative meaning gives commands to change state
+   - Procdural meaning the ability to structure
+     code and call procedures
+ - Finished (roughly) by 1973
+ - Standardized (roughly) by 1983
 
 Prolog
  - 70's Nonprocedural
- - Provide facts, language builds deductions from those facts
+ - Provide facts, language builds deductions from
+   those facts
 
 Ada
  - DoD worked seperately on over 450 languages
@@ -84,9 +141,12 @@ Objects:
 Names:
   - Names only exist for our benefit
   - Fortran had a character limit of 31
-  - C technically has a char limit of 63, but the compiler doesn't care
-  - Being allowed to not follow naming conventions can fuck with readability
-  - Certain languages forbid the use of reserved words as variable names
+  - C technically has a char limit of 63, but the
+    compiler doesn't care
+  - Being allowed to not follow naming conventions can
+    fuck with readability
+  - Certain languages forbid the use of reserved words as
+    variable names
   - Variables can be seen as a tuple of:
     - Name
     - Address
@@ -96,24 +156,127 @@ Names:
     - Scope
   - Address:
     - The Address of a variable is it's 'l-value'
-    - When a single address is reffered to by more than one name, it's called an 'alias'
-    - Aliases make debugging much harder to find were errors occur
+    - When a single address is reffered to by more than
+    one name, it's called an 'alias'
+    - Aliases make debugging much harder to find were
+    errors occur
   - Type:
-    - determine both the range of values of a variable, and the operations that may be performed on it.
+    - determine both the range of values of a variable,
+      and the operations that may be performed on it.
   - Value:
-    - It's actually difficult to get the value out of a variable
+    - It's actually difficult to get the value out of a
+      variable
   - Binding:
-    - Occurs at language design/implementation, compile time, etc...
+    - Occurs at language design/implementation, compile
+      time, etc...
+      When we associate an attribute with some entity
     - Static variables are bound at compile time.
-    - In order for a binding to occur, memory needs to be allocated.
-    - Dynamic variables are not bound to an address for the entirety of the programs runtime
-    - Stack-Dynamic variables are variables that are statically bound but created when they are elaborated.
+    - In order for a binding to occur, memory needs to be
+      allocated.
+    - Dynamic variables are not bound to an address for
+      the entirety of the programs runtime
+    - Stack-Dynamic variables are variables that are
+      statically bound but created when they are elaborated.
       - Function calls are a good example of these
-      - Recursive functions would have their variables overwritten at every iteration)
+      - Recursive functions would have their variables
+        overwritten at every iteration!
 
 ============================================================
-=== 10/05/2018 =============================================
+=== 10/05/2018 ======================== Scope & Bindings ===
+
+[^ Cont. ^]
+  - Binding:
+    - Explicit Heap-Dynamic Variables are 'hand' allocated.
+      Very prone to memory leaks. Type checked by the
+      compiler.
+    - Implicit Heap-Dynamic Variables are bound only when
+      they are assigned a value. These are less error
+      prone, but involve more overhead. Types are
+      determined at runtime.
+  - Scope:
+    - Static Scope refers to the range that a variable is
+      available to be accessed.
+    - Global variables exist outside of functions
+      definitions, but are resolved outside of them.
+      - DO NOT USE THEM
+    - Dynamic Scope is hot garbage
+  - LifeTime:
+    - The span of runtime that the variable actually exists
+      (Scope refers to the block that you can access it)
 
 ============================================================
-=== 10/08/2018 =============================================
+=== 10/08/2018 ====================== Syntax & Semantics ===
+
+Syntax:
+  - Language is built from phonemes and morphemes.
+  - Language has a set of rules for composing these
+    morphemes.
+  - Langauge is a set of strings built from these.
+  - A lexeme is a group of phonemes.
+    - It is a basic abstract unit of meaning
+  - Lexemes get partitiioned into groups, called tokens.
+  - Examples of tokens are operators, delimiters, etc.
+  - The set of all possible strings in a language is 
+    determined by its compliler.
+  - Either a Language Recognizer, or a Language Generator
+  - Neither of these by themselves are to great for learning 
+    the language.
+Context-Free Grammar:
+  - Imagine teaching C to someone by talking in terms of C.
+    - It wouldn't go well, right?
+  - Noam Chomsky introduced the notion of Context-Free 
+    languages and Regular Expressions
+  - John Backus created notation for when designing ALGOL.
+    - Turned out to be similar to a 6th Century guru's 
+    interpretation of language
+  - Meta-Language
+    - BNF (Backus-Naur Form), technique for describing
+      languages
+    - Provides rules for constructing valid sentences.
+    - Ex: Assignment expression composed of tokens
+      - <assign> -> <var> = <expression>
+    - Tokens are either:
+      - Terminal: Lexems, single lexeme
+      - Non-Terminal: Abstractions, set of lexemes
+  - Steps to build one:
+    - Decide on a set of symbols
+    - Create lexemes
+    - compose lexemes into tokens
+    - make context free rules
+    - = Grammar
+
+===========================================================
+=== 2018/10/10 ============================================
+
+[^ Cont. ^]
+  - How do we check if a given sentence is valid?
+    - Left-most derivation
+    - Each stage in the derivation is called a 'sentential
+      form'
+    - Left-Most derivation is good at generating hierarchy
+      - This hierarchy is called the 'Parse Tree'
+
+===========================================================
+=== 2018/10/15 ============================== Semanitcs ===
+
+Semantics:
+  - What does our code mean?
+  - What will it do?
+  - Operational
+    - Just run the program and see what it does
+  - Denotational
+    - Map functions to mathematical objects
+  - Axiomatic
+    - Using logic to formally prove the soundness of a
+      given program
+
+===========================================================
+=== 2018/10/22 ============================================
+
+Python:
+  - Is dynamically typed
+    - You can even dynamically define functions!
+  - Iterator objects implement:
+    - __iter__()
+    - __next__()
 
