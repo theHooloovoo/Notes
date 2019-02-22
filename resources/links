@@ -12,6 +12,9 @@ Parsers / Finite State Machines:
 	# Tutorial Explaining LALR(1) Parsing
 	https://web.cs.dal.ca/~sjackson/lalr1.html
 
+	# Tutorial explaining the construction of a parse table.
+	https://www.cs.york.ac.uk/fp/lsa/lectures/parsetable.pdf
+
 	# Pretty State Machines (Blog Post, Rust)
 	https://hoverbear.org/2016/10/12/rust-state-machine-pattern/
 
