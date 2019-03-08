@@ -1,8 +1,0 @@
-
-===========================================================
-=== 2018/10/04 ============================================
-
-  - On delete set default
-  - On delete set null
-  - On update Cascade
-  - On delete Cascade

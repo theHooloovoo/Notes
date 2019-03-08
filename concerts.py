@@ -4,10 +4,11 @@ import sys
 import lxml.html, requests
 import datetime
 
-# Takes in a string formatted as 'Mon DD' and converts it
-# to 'YYYY/MM/DD'. The year is inferred such that a date
-# that occures in the past is 'pushed' up by one year
 def convert_date(d):
+    """ Takes in a string formatted as 'Mon DD' and converts it
+        to 'YYYY/MM/DD'. The year is inferred such that a date
+        that occures in the past is 'pushed' up by one year.
+    """
     cur_date = datetime.datetime.now()
     year = cur_date.year
     new_date = datetime.datetime.strptime(' '.join([str(year),d]), '%Y %b %d')
@@ -18,9 +19,10 @@ def convert_date(d):
     # convert to "YY/MM/DD"
     return str(year) + new_date.strftime("/%m/%d")
 
-# Takes in a file handle, and returns a list.
-# Each element of the list is in the form: [band URL, bandname]
 def open_band_file(f_in):
+    """ Takes in a file handle, and returns a list.
+        Each element of the list is in the form: [band URL, bandname].
+    """
     band_list = []
     # Function Body
     for line in f_in.readlines():
@@ -32,11 +34,11 @@ def open_band_file(f_in):
             band_list.append(line.split())
     return band_list
 
-# Takes in a bandcamp url, and returns a list of tour dates
-# Each tour date is in the form: [date, bandname, location]
-# date is in the form 'Mon DD'
-def get_tour_dates(url, bandname):
-    tour_list = []
+def get_tour_dates(url, bandname, tour_list):
+    """ Takes in a bandcamp url, and returns a list of tour dates
+        Each tour date is in the form: [date, bandname, location]
+        date is in the form 'Mon DD'.
+    """
     # Open the url, then extract & parse the html into a tree
     webpage = requests.get(url)
     tree = lxml.html.fromstring(webpage.content)
@@ -48,8 +50,8 @@ def get_tour_dates(url, bandname):
         # Get the text, and format the list into something suitable
         t = n.xpath('./*/text()')
         text_list = [convert_date(t[0]), bandname, t[1]]
+        # print(text_list)
         tour_list.append(text_list)
-    return tour_list
 
 # =============================================================================
 # === Start the Script ========================================================
@@ -59,16 +61,14 @@ band_urls = open_band_file(band_file)
 
 tour_list = []
 for band in band_urls:
-    tours = get_tour_dates(band[0], band[1])
-    for tour in tours:
-        tour_list.append(tour)
+    print("  =", band, "===================================")
+    get_tour_dates(band[0], band[1], tour_list)
 
-tou_list = tour_list.sort()
+tour_list = sorted(tour_list)
 
 for tour in tour_list:
-
     print(tour[0],
-          '{:<10}'.format(tour[1]),
+          '{:<12}'.format(tour[1]),
           '{:<25}'.format(tour[2]),
          )
 
