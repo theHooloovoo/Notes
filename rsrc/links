@@ -1,0 +1,80 @@
+# Type gx to open link through vim.
+
+# === On the Web =========================================
+
+Orbital Dynamics:
+	# Wiki page on Kepler Orbits
+	https://en.wikipedia.org/wiki/Kepler_orbit
+	# Useful post on calculating orbital elements from current state.
+	https://space.stackexchange.com/questions/1904/how-to-programmatically-calculate-orbital-elements-using-position-velocity-vecto
+
+Parsers / Finite State Machines:
+	# Tutorial Explaining LALR(1) Parsing
+	https://web.cs.dal.ca/~sjackson/lalr1.html
+	# Tutorial explaining the construction of a parse table.
+	https://www.cs.york.ac.uk/fp/lsa/lectures/parsetable.pdf
+	# Pretty State Machines (Blog Post, Rust)
+	https://hoverbear.org/2016/10/12/rust-state-machine-pattern/
+	# Pest API (Parser for Rust)
+	https://pest.rs/book/intro.html
+	# And it's home website with an interactively generated parser!
+	https://pest.rs/
+
+Raspberry Pi Robotics Shit:
+	# A maybe helpful stackoverflow page??
+	https://raspberrypi.stackexchange.com/questions/682/how-can-i-control-lego-motors
+
+Vim References:
+	# Cheat Sheet
+	https://duckduckgo.com/?q=Vim+cheat+sheet&t=canonical&ia=cheatsheet&iax=1
+	https://duckduckgo.com/?q=Vim+cheat+sheet&t=canonical&ia=cheatsheet
+
+Python References:
+	# Pylint Tutorial
+	https://pylint.readthedocs.io/en/latest/tutorial.html
+
+Rust References:
+	# Official Book
+	https://doc.rust-lang.org/book/index.html
+	# Official Reference
+	https://doc.rust-lang.org/stable/reference/
+
+Haskell References:
+	# Interactive Haskell Tutorial
+	https://www.tryhaskell.org/
+	# Learn You a Haskell for Great Good!
+	http://www.learnyouahaskell.com/introduction
+	# Tutorials Point
+	https://www.tutorialspoint.com/haskell/index.htm
+
+C/C++ References:
+
+Linux References:
+
+Other Random Shit:
+	# Conways game of life in APL (Arcane Programming Language)
+	http://dfns.dyalog.com/n_life.htm
+
+# === On Disk =============================================
+
+Books:
+	# O'Rielly Books	(Humble Bundles are so good for these!)
+	~/Documents/PDFs/pythoncookbook.pdf
+	~/Documents/PDFs/csscookbook.pdf
+	~/Documents/PDFs/dockercookbook.pdf
+	~/Documents/PDFs/javascriptcookbook.pdf
+	~/Documents/PDFs/learningtheviandvimeditors_7thedition.pdf
+	~/Documents/PDFs/lexandyacc.pdf
+	~/Documents/PDFs/pythoncookbook.pdf
+	~/Documents/PDFs/raspberrypicookbook.pdf
+	~/Documents/PDFs/regularexpressionscookbook.pdf
+	~/Documents/PDFs/sedandawk.pdf
+	~/Documents/PDFs/windowspowershellcookbook.pdf
+	# Video Games & DnD
+	~/Documents/PDFs/HyperLightDrifter_ArtBook_Web.pdf
+	~/Documents/PDFs/Jones-RapidGameDev.pdf
+	~/Documents/PDFs/Strongholds and Followers.pdf
+	# Assorted Programming Books
+	~/Documents/PDFs/Rust_Essentials.pdf
+	~/Documents/PDFs/The_AWK_Programming_Language.pdf
+

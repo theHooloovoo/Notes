@@ -1,0 +1,40 @@
+# Tests for teaching python.
+
+basics:
+	variables
+	plus/minus/mul/div
+	exp/mod
+	strings
+	user input
+	if/else
+	for/while
+	list/dict
+
+data structures:
+	lists as stacks/queues
+	classes & objects
+
+exercieses:
+	Hello World
+	Hello <USER NAME>
+	generate the list of primes [2, 100]
+	filter out numbers from a random list that are inside some range
+	Take radius from user, then compute area of circle
+		Bonus: Calculate the volume of a sphere
+	Find the sin, cos, tan of some circle (r, theta)
+	Read the command args
+	Given a filename, print the file extension
+	Find the factors of 1-100
+	Find the distance between two 2d pionts
+		Bonus: Do the same, but for 3d
+	Find the midpoint of a 2d line segment
+	Read a file into a string
+	Write a string into a file
+	Parse string into int without casting
+		Bonus: Parse into either int or float
+	Print out a sentence word by word
+	Print a string in reverse
+	Fibonocci Sequence
+		Do that recursively
+	
+	
