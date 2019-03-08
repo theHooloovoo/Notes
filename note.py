@@ -88,7 +88,7 @@ def main(args):
 
 original_dir = os.getcwd()
 home_dir = os.path.expanduser("~")
-note_dir = os.path.join(home_dir, "notes/rsrc/")
+note_dir = os.path.join(home_dir, "Notes/rsrc/")
 print("HOME:", home_dir)
 print("NEW_DIR:", note_dir)
 
