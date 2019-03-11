@@ -58,23 +58,46 @@ Other Random Shit:
 # === On Disk =============================================
 
 Books:
-	# O'Rielly Books	(Humble Bundles are so good for these!)
-	~/Documents/Reilly/pythoncookbook.pdf
-	~/Documents/Reilly/csscookbook.pdf
-	~/Documents/Reilly/dockercookbook.pdf
-	~/Documents/Reilly/javascriptcookbook.pdf
-	~/Documents/Reilly/learningtheviandvimeditors_7thedition.pdf
-	~/Documents/Reilly/lexandyacc.pdf
-	~/Documents/Reilly/pythoncookbook.pdf
-	~/Documents/Reilly/raspberrypicookbook.pdf
-	~/Documents/Reilly/regularexpressionscookbook.pdf
-	~/Documents/Reilly/sedandawk.pdf
-	~/Documents/Reilly/windowspowershellcookbook.pdf
-	# Video Games & DnD
+  # O'Rielly Books	(Humble Bundles are so good for these!)
+    ~/Documents/Reilly/android_cookbook.pdf
+    ~/Documents/Reilly/arduino_cookbook.pdf
+    ~/Documents/Reilly/bash_cookbook_2nd.pdf
+    ~/Documents/Reilly/bash_pocket_reference_2nd.pdf
+    ~/Documents/Reilly/classing_shell_scripting.pdf
+    ~/Documents/Reilly/css_cookbook.pdf
+    ~/Documents/Reilly/dns_and_bind_5th.pdf
+    ~/Documents/Reilly/docker_cookbook.pdf
+    ~/Documents/Reilly/essential_system_administration_3rd.pdf
+    ~/Documents/Reilly/javascript_cookbook.pdf
+    ~/Documents/Reilly/learning_gnu_emacs_3rd.pdf
+    ~/Documents/Reilly/learning_the_bash_shell_3rd.pdf
+    ~/Documents/Reilly/learning_the_vi_and_vim_editors_7th.pdf
+    ~/Documents/Reilly/learning_unix_for_osx_2nd.pdf
+    ~/Documents/Reilly/lex_and_yacc.pdf
+    ~/Documents/Reilly/linux_pocket_guide_3rd.pdf
+    ~/Documents/Reilly/network_trouble_shooting_tools.pdf
+    ~/Documents/Reilly/object_oriented_vs_functional_programming.pdf
+    ~/Documents/Reilly/perl_cookbook_2nd.pdf
+    ~/Documents/Reilly/php_cookbook.pdf
+    ~/Documents/Reilly/python_cookbook.pdf
+    ~/Documents/Reilly/rasberry_pi_cookbook.pdf
+    ~/Documents/Reilly/r_cookbook.pdf
+    ~/Documents/Reilly/regex_cookbook.pdf
+    ~/Documents/Reilly/r_in_a_nutshell.pdf
+    ~/Documents/Reilly/scale_cookbook.pdf
+    ~/Documents/Reilly/sed_and_awk.pdf
+    ~/Documents/Reilly/sql_cookbook.pdf
+    ~/Documents/Reilly/tcp_ip_network_administration_3rd.pdf
+    ~/Documents/Reilly/ten_steps_to_linux_survival.pdf
+    ~/Documents/Reilly/unix_in_a_nutshell_4th.pdf
+    ~/Documents/Reilly/unix_powershell_cookbook.pdf
+    ~/Documents/Reilly/windows_powershell_cookbook.pdf
+  # Video Games & DnD
 	~/Documents/PDFs/HyperLightDrifter_ArtBook_Web.pdf
 	~/Documents/PDFs/Jones-RapidGameDev.pdf
 	~/Documents/PDFs/Strongholds and Followers.pdf
-	# Assorted Programming Books
+  # Assorted Programming Books
 	~/Documents/PDFs/Rust_Essentials.pdf
 	~/Documents/PDFs/The_AWK_Programming_Language.pdf
+
 

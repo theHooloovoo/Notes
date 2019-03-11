@@ -1,3 +1,5 @@
+# Notes on Vim functionality.
+
 Movement:
   h	# Move cursor left
   j	# Move cursor down
@@ -27,16 +29,27 @@ Macros:
 						# Press q to finish the recording the command.
   @<letter>	# Execute the macro stored in register <letter>.
   @@		# Execute the previously executed macro.
+  # Apply a macro to all lines in file:
+    :%norm! @<letter>
+  # Applying a macro to a range of lines:
+    V # to visually select a range of lines
+    :norm! @<letter>
 
 Folding:
   zf#j	# Creates a fold from the cursor down # lines
   zf/TEXT	# Creates a fold from the cursor until TEXT is matched
   zj	# Move cursor to next fold
   za	# Toggle the selected fold
-  zo	# Opens the seleceted fold
+  zo	# Opens the selected fold
   zO	# Opens all folds
   zc	# Closes the selected fold
   zM	# Closes all folds
   zd	# Deletes fold
 
-Ex Mode:
+
+Plugins:
+  Jedi-Vim:
+    Ctrl+Space:
+      Completion for almost anything.
+    :help jedi-vim
+      Complete Documentation.
