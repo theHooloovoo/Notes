@@ -1,0 +1,17 @@
+# SQL notes.
+
+Sample Queries #===========================================
+  # Substring selection
+  SELECT * FROM MONSTERS WHERE name LIKE '%substring%' ;
+  # Starts with substring
+  SELECT * FROM MONSTERS WHERE name LIKE '%_substring%' ;
+
+  # Division
+  # This will return the difference between the two
+  # sub queries. It's called division because it refers to
+  # 'Relation Division', and not the algebraic kind.
+  SELECT ...
+  FROM ...
+  WHERE <Expr> <Sub Query>
+               MINUS
+               <Sub Query>

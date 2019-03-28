@@ -1,0 +1,48 @@
+# Peer Review Notes for Team 3.
+
+# === Data Base Specifications ================================================
+Keep track of streaming habits of users.
+User:
+  A single person (userID, name, age, gender)
+  Watches some, but not all titles (films, tv shows, etc.).
+  User has an account ( accountID, startDate).
+
+Personality:
+  An actor that appears in a title (name, DoB, gender, etc.).
+  May appear in multiple titles.
+  Must have appeared in one title.
+ 
+Title:
+  A film, tv show, video, (title, year_released, publisher, rating).
+  Descriptor ( Film | TV Show | Video )
+  Has a set of associated genres (western, sci-fi, romance).
+  Has a set of associated tags ( ??? )
+  Belongs to one or more services.
+
+Service:
+  A service provider (name, monthly_rate)
+  Supported devices (tv, phone, computer, etc.).
+  List of provided titles.
+  List of user accounts.
+
+Account:
+  Account belonging to service (email, userID, service_name).
+  Belongs to exactly one Service.
+  Belongs to exactly one User.
+
+Device:
+  What a title is viewed on (MAC_adress, type).
+
+# === Entity-Relationship Diagram =============================================
+
+Personality should have a total participation relation to Title.
+  - All Personalities need to appear in at least 1 film.
+
+Should genres/tags supposed to be seperate?
+  - Also shouldn't they be a weak entity?
+  - You'd want to be able to reference the genre from one tilte to that of another.
+
+What is the location attribute on Offered_By represent?
+  - I didn't see it in the desgin doc.
+
+Maybe add a way for users to 'favorite' certain actors?
