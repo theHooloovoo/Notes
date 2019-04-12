@@ -1,10 +1,31 @@
 # SQL notes.
 
+Integrity Constraints #====================================
+  # Integrity Constraints appear inside the declaration
+  # of the table.
+
+  # Basic Form
+  CONSTRAINT id1 PRIMARY KEY (table),
+
+  # Specify non-key pairs to be unique
+  CONSTRAINT id1 UNIQUE (attr1, attr2),
+
 Sample Queries #===========================================
   # Substring selection
-  SELECT * FROM MONSTERS WHERE name LIKE '%substring%' ;
-  # Starts with substring
-  SELECT * FROM MONSTERS WHERE name LIKE '%_substring%' ;
+  # Look up more sql string manipulations!
+  SELECT ...
+  FROM   ...
+  WHERE  ...
+  LIKE   '%substring%';
+
+  # Sort query
+  SELECT   ...
+  FROM     ...
+  ORDER BY ...;
+
+  # Find how many of a unique value there are
+  SELECT COUNT (DISTINCT ...)
+  FROM ...;
 
   # Division
   # This will return the difference between the two
@@ -15,3 +36,50 @@ Sample Queries #===========================================
   WHERE <Expr> <Sub Query>
                MINUS
                <Sub Query>
+
+Test 2 #===================================================
+  DDL (Data Definition Language)
+    - Table creation/drops
+  DML (Data Manipulation Language)
+    - Entering data to tables/removing it
+    - Given a query, interpret it
+  Normalization
+    - Without normalization, a schema can allow for
+      redundency.
+    - In normalization, we 'decompose' the schema. This
+      decomposition must be 'lossless'.
+    Update Anomolies
+      - Insertion Anomolies occur when there are
+        redundencies in the database.
+    Funtional Dependencies
+      - AB->CDEF : Neccessary, AB is a key.
+      - B->C     : Problematic, partial dependancy.
+      - E->F     : Problematic, transitive dependancy.
+      - E->B     : Problematic, BC (Boyce-Codd) dependancy.
+    Armstrong's Pseudo Transitive Rule
+      - If X->Y and WY->Z, then WX->Z
+
+PL/SQL #===================================================
+  PL/SQL Mode starts when a 'DECLARE' or 'BEGIN' statement
+  are encountered.
+  Substitution & bind variables
+    - 
+  Cursors
+    - 
+    - Can 'OPEN', 'FETCH', 'CLOSE'
+
+Test 3 #===================================================
+  - A join involving at least four relations
+  - A self-join
+  - UNION, INTERSECT, MINUS (DIVISION)
+  - SUM, AVG
+
+HM - Normalization #=======================================
+  Do 1 & 2, attempt 3 (Don't have to do.)
+  - 14 points total
+
+HM - PL/SQL #==============================================
+  Bonus HM (yay.)
+  - 20 points total (please for the love of god, actually do
+    this!!)
+
