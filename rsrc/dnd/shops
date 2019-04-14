@@ -1,2 +1,43 @@
+# Sample Shops + Shop Generation Rules.
 
+Generation Rules #=========================================
+  Small
+  Medium
+  Large
+  Huge
+  --
+  Types
+    Mundane
+      - Offers Adventuring gear, rations, clothes,
+        trinkets, etc.
+    Arcane
+      - Offers Scrolls, wands, rings, spellbooks, etc.
+      - Managed by a wizard (or group of wizards) of some
+        level.
+      - All items there have to be crafted by those
+        wizards, unless the item was found or traded. These
+        items are to be sold at [1.5-3.0] times their
+        normal price.
+    Divine
+     - Typically managed by a cleric, or sometimes a
+       paladin.
+     - Trade items only with those of the faith.
+     - Goods typically are healing kits, magical insense,
+       ritual components, aligned weapons, holy symbols,
+       etc.
+     - All items there have to be crafted by those
+       managers, unless the item was traded or found
+       elsewhere. These items must be traded for greater
+       amounts.
+    Alchemical
+     - Typically managed by a wizard, artificer, or some
+       other trained noble.
+     - Offer potions, oils, plus materials not typically
+       useful for adventuring parties.
+    Brewery
+     - Offer Beers, Ales, Tonics & Liquers. Also some food
+       and local rumors.
+    Forge
 
+Sample Shops #=============================================
+  Drunken Monk

@@ -60,6 +60,7 @@ Test 2 #===================================================
       - If X->Y and WY->Z, then WX->Z
 
 PL/SQL #===================================================
+  Stands for Programming Language / SQL
   PL/SQL Mode starts when a 'DECLARE' or 'BEGIN' statement
   are encountered.
   Substitution & bind variables
