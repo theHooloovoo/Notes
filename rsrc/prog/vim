@@ -1,53 +1,61 @@
 # Notes on Vim functionality.
 
-Movement:
-  h	# Move cursor left
-  j	# Move cursor down
-  k	# Move cursor up
-  l	# Move cursor right
+Movement: #================================================
+  h	- Move cursor left
+  j	- Move cursor down
+  k	- Move cursor up
+  l	- Move cursor right
   Words:
-    w # Move forward 'soft' word.  
-    W # Move forward 'hard' word.  
-    b # Move backward 'soft' word.  
-    B # Move backward 'hard' word.  
-    e # Move to end of 'soft' word.  
-    E # Move to end of 'hard' word.  
+    w - Move forward 'soft' word.  
+    W - Move forward 'hard' word.  
+    b - Move backward 'soft' word.  
+    B - Move backward 'hard' word.  
+    e - Move to end of 'soft' word.  
+    E - Move to end of 'hard' word.  
 
-Search:
-  * # Move to the next word that matches what the cursor is sitting on
-  / # Search forward for [pattern]
-  ? # Search backward for [pattern]
-  n # move to next search match
-  N # move to previous search match
-  :%s/OLD/NEW/g		# Replace all occurences of OLDwith NEW
-  :%s/OLD/NEW/gc	# Same as above, but ask for confirmations
+Search: #==================================================
+  * - Move to the next word that matches what the cursor is sitting on
+  / - Search forward for [pattern]
+  ? - Search backward for [pattern]
+  n - move to next search match
+  N - move to previous search match
+  :%s/OLD/NEW/g		- Replace all occurences of OLDwith NEW
+  :%s/OLD/NEW/gc	- Same as above, but ask for confirmations
 
-Macros:
-  q<letter>[commands]q	# Press q to enter macro record mode.
-                        # Press a letter to select a register.
-                        # Record whatever string of commands you want.
-						# Press q to finish the recording the command.
-  @<letter>	# Execute the macro stored in register <letter>.
-  @@		# Execute the previously executed macro.
-  # Apply a macro to all lines in file:
-    :%norm! @<letter>
+Macros: #==================================================
+  q<letter>[commands]q
+    - Press q to enter macro record mode. Press a letter
+      to select a register.  Record whatever string of
+      commands you want.  Press q to finish the recording
+      the command.
+  @<letter>	- Execute the macro stored in register <letter>.
+  @@		- Execute the previously executed macro.
+  :%norm! @<letter>
+    - Apply a macro to all lines in file:
   # Applying a macro to a range of lines:
     V # to visually select a range of lines
     :norm! @<letter>
 
-Folding:
-  zf#j	# Creates a fold from the cursor down # lines
-  zf/TEXT	# Creates a fold from the cursor until TEXT is matched
-  zj	# Move cursor to next fold
-  za	# Toggle the selected fold
-  zo	# Opens the selected fold
-  zO	# Opens all folds
-  zc	# Closes the selected fold
-  zM	# Closes all folds
-  zd	# Deletes fold
+Folding: #=================================================
+  zf#j	- Creates a fold from the cursor down # lines
+  zf/TEXT	- Creates a fold from the cursor until TEXT is matched
+  zj	- Move cursor to next fold
+  za	- Toggle the selected fold
+  zo	- Opens the selected fold
+  zO	- Opens all folds
+  zc	- Closes the selected fold
+  zM	- Closes all folds
+  zd	- Deletes fold
 
+g <Normal Mode>: #=========================================
+  gf - Close current file, then edit the file that the
+       cursor is pointing to.
+  gD - Goto declaration of the the current word.
+  g? - Rot13 Encode Operator.
+    g?? - Encode the current line with Rot13 Cypher.
+  ga - Print ASCII value of character under cursor.
 
-Plugins:
+Plugins: #=================================================
   Jedi-Vim:
     Ctrl+Space:
       Completion for almost anything.
