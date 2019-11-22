@@ -1,0 +1,27 @@
+# Notes/Ideas on a procedural planet terrain generator.
+
+Planet:
+  - Generate the Orbit, size, revolution, composition,
+    etc. of the planet.
+  - Techtonics
+    - Generate some amount of points on the planet's
+      surface.
+      - Amount of points should correlate to planet size.
+    - 'Crack' the surface by producing the voronoi
+       cell fracture from those points.
+    - Each cell is now considered a techtonic plate.
+    - Find a way to simulate techtonic drift.
+    - Find a way to model an atmosphere.
+    - Find a way to model magnetosphere.
+
+Surface:
+  - Use layers of perlin noise for surface level features.
+    - Size & Amplitude decrease be a given factor on
+      a per-level basis.
+  - Techtonic plates add or subtract to the surface at
+    plate boundaries.
+    - Plate Techtonics should scale positively with mass,
+      occurence of tides, interaction with another body.
+	- Vulcanism should add to the surface as well.
+  - Simulate craters from asteroid impacts.
+

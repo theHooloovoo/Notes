@@ -2,4 +2,17 @@
 #   - ~/Documents/Reilly/sedandawk.pdf
 #   - ~/Documents/PDFs/The_AWK_Programming_Language.pdf
 
+Basics #===================================================
+  $N - References the Nth column.
+  /pattern/ - only matches lines with <pattern>.
+  !/pattern/ - only matches lines without <pattern>.
+  FS - Field seperator. Substring that will split the line.
+       Specified with the command flag -F
+  NF - Number of fields in current line.
+  NR - Line number.
+  ^ - Match beginning of field
+  ~ - Match operator
+  !~ - Do not match operator
+
+One-Liners #===============================================
 
