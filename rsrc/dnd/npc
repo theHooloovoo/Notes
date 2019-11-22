@@ -45,7 +45,7 @@
     - Must pay steep price for the knowledge he purveys
     - Those who don't pay enough, pay with their lives
 
-"Ishvael": # ==============================================
+"Ishvaeln": # =============================================
   - Red Dragon
   - Young Adult (~60 years old)
   - Titles:
@@ -54,8 +54,14 @@
     the copper Dragon "Bruntutelephion".
   - Mountain cave ~20 miles west of "Delgall".
   - Commands a gang of giants & gnolls
+    - 4 Hill Giant
+    - 2d6 Orc [d8 Fighter]
+    - 12d4 Kobold [2d6 Barbarian]
+    - 2d4 Kobold [d4+6 Sorcerer]
+    - 6d6 Goblin [d4 Rogue/Bard/
     - Harass local towns, extort money.
-  - Has a penchant for using the spell invisibility.
+  - Has a penchant for using the spell Invisibility,
+    Pyrotechnics & Touch of Idiocy
 
 "Madame Rooke": # =========================================
   - Human Sorceror (~16 level)
@@ -73,6 +79,8 @@
   - Human, Wizard (~14th level)
     - 73 years old
     - Hacking Cough, Arcane tattoos
+    - Left eye is a fake, ghostly blue pearl that grants
+      him true sight.
   - Looks like the old dude from the Khemmis album covers.
   - Has a deal with the dragon "Myastinaklon" to revive
     him as a dracolich.
@@ -91,7 +99,7 @@
 "Salaro": # ===============================================
   - Ogre Mage, Sorcerer/Cleric
     - ~36 years old
-  - Made deal with magus of from Anderia
+  - Made deal with magus from Anderia
     - Steal Aethericite in exchange for gp & Iron Golem.
     - Sent goblins to attack Stidale mine.
   - Tries to keep a low profile, prefers to send his
@@ -100,30 +108,51 @@
 
 Dungeon Goblin Cult # =====================================
   "Oosh-Kuth-Oompa-Vom":
-    Pope of the dungeon.
+    - Pope of the dungeon.
 
 Fishing Town # ============================================
   "Brian":
-    - Old Human Druid
-    - Local Priest of Palor
+    - Old Human 6th level Druid
+    - Local Priest of Pelor
     - Came from a far, western land
       - Witnessed the dragon "Fjorvek Veshkahn" atop the
-        monks mountain temple.
+        monks mountain temple. Clashed for a moment, but
+        was spared.
 
-Kadeshian Fort City Folk: # ===============================
+Kadeshian City Folk: # ====================================
   "Ditrask Volm":
     Kobold, Blue, Old
     Bazaar Master, slaver extrordinair
     Very smart/cunning
     - Has an Imp as a consort.
+    - Communes occasionally with a horned devil
+    - Trades for a large range of goods.
+    - Brandishes a +5 Vorpal Scimitar "Ash Tongue" 
+      - It's inscribed with arcane runes that allow it to
+        cast haste 1/day on the user. On critcal hits,
+        instead of decapitating the target, they get
+        disentigrated, and the ashes flow onto the users
+        skin granting DR 5/adamantine for 1d4 hours.
+      - It's also cursed. Any Non Lawful-Evil who wield it
+        take -5 on all saves.
+    - Has a pet beholder that he got from a trade.
+      - It's mind has been ripped out and replaced with a
+        far more docile, obedient one by a wizard from
+        another plane.
+      - It's eye has been transformed into a crystal orb
+        for scrying, by the magus Dreifus.
+    - Guarded by two Large Lizardfolk who weilds halberds.
+    - Secretly tries to guide the politics of the region
+      to his favor, much to the dragon's chagrin.
   "Crex":
     Kobold, Neutral, Mature
     Humble stone-worker
     Makes statues with his family
-  Geeg-Molne
+  "Geeg-Molne":
     Kobold, Blue, Mature
     Rich, kind of douchey
     Thinks lowly of non-kobolds
+    Is a typical consort of the prince.
   "Igra":
     Kobold, Neutral
     Bar Owner, "Miirik Okarthel"
@@ -139,4 +168,9 @@ Kadeshian Fort City Folk: # ===============================
     - Kobold, Neutral
     - Secretly a rebel, tries to sow distrust against the
       ruling class.
+  "Tychon":
+    - Kobold, Neutral
+    - Lowly merchant, pushes goods onto tourists
+    - Is an informant for "Ditrask Volm", acts as his eye
+      for the city entrance.
 
