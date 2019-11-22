@@ -1,0 +1,93 @@
+# Personal notes on html.
+# https://codetheweb.blog
+
+Basic Shit:	# =============================================
+  - Everything is tags, and they either open or close.
+    - Open:  <example>
+    - Close: </example>
+  - Sometimes an element doesn't need a closing tag.
+    - For instance: <img src="boobs.jpg">
+  - Sets of tags contain 'contents', e.g. the shit inside
+    them.
+    - Ex: <h1>Fuck Authority!</h1>
+  - Tags may also contain 'attributes'.
+    - Ex: <h1 id="Praxis" class="banner">Fuck Authority!</h1>
+    - These attributes are used by CSS to style the
+      document.
+
+Structure:	# =============================================
+  - Always start HTML documents with '<!DOCTYPE html>'
+  - Follow that with '<html>' tags. Everything will go
+    inside of that.
+  
+Specific Tags:	# =========================================
+  <head>:
+    - Stores data about the page including links to
+      resources used by the page (JS, CSS, images,
+      etc...)
+    - The head tag doesn't display anything.
+  <title>:
+    - Stores the title for parent tag.
+  <body>:
+    - Contains stuff, I guess. ('Elaborate')
+  <h{1-6}>:
+    - Heading tags. The number represents the size level.
+    - <h1> is the main heding (The biggest).
+    - <h2> is the secondary heading (Slightly smaller).
+    - ...
+    - <h6> is the smallest heading
+  <p>:
+    - Paragraph tag. Big'ol chunk of text.
+  <br>:
+    - Line break. Lacks closing tag, and is not visible.
+  <hr>:
+    - Horizontal Rule. Like '<br>', but is a visible line.
+  <!-- * -->:
+    - Comment. Put your text inside.
+  <img src="*">:
+    - Image tag. "src" is the file path to the image.
+    - Lacks closing tag.
+    - Optional attributes are 'width' & 'height'.
+      Parameters for these are given in pixels. (However,
+      use CSS to control image sizing)
+  <a href="*">:
+    - Link to another webpage. ('a' stands for Anchor)
+      - 'href' stands for hypertext reference.
+    - Does use a closing tag, text in between is what the
+      link will look like.
+      - Adding a 'target="_blank"' attribute inside the
+        opening '<a>' will open the link in a new tab.
+    - Images can be made links by placing them inside a
+      link tag.
+  <div>:
+    - Division tag, used to group elements.
+    - Used to seperate large chunks of elements into
+      logical divisions.
+    - Each '<div>' tag can be given a 'CSS' to easily &
+      concisely style large portions of your webpage.
+    - Each '<div>' can be tactically positioned, along
+      with its contents.
+  <span>:
+    - Used to group certain spans of text.
+    - Use 'CSS' to style select sections of text.
+  <li>:
+    - List Item.
+    - Used by '<ol>' & '<ul>' as entries to their contents.
+  <ol>:
+    - Ordered List.
+  <ul>:
+    - Unordered List.
+  <dl>:
+    - Definistion List.
+    - Entries of composed of 'term/definition' pairs. This
+      is very similar to 'key/value' pairs used by
+      something like a hashmap.
+    - These pairs are '<dt>' and '<dd>'.
+  <nav>:
+    - Navigation tag. Used by search engines (as a
+      standard) to search through webistes.
+    - The standard is: 'nav > ul > li > a > TEXT'
+
+Lists:
+  Ordered Lists:
+    - 

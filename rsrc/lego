@@ -1,0 +1,30 @@
+# Beams
+  32316	~$?	# 5u Beam
+  32524	~$0.31	# 7u Beam
+  40490	~$?	# 9u Beam
+  64290	~$?	# 11u Beam
+  41239	~$?	# 13u Beam
+  64871	~$0.50	# 15u Beam
+  32526	~$0.40	# 5x3 Elbow Beam
+
+# Technic Connectors
+  55615	~$0.43	# Beam Connector W. 4 Snaps 90 Degrees
+
+# Technic Other
+  3711	~0.10	# Chain Link
+
+# Parts list for lego-robot ===============================
+  u-joint x6
+  64179 ~$1.00	# 5x7 technic box x16
+  64178 ~$1.15	# 5x11 Technic H-frame
+  32054 ~$0.14	# black peg x36
+  14720 ~$0.45	# weird I-Beam 3x5 x6
+  32009 ~$0.73	# 9x5 45deg elbox (brown) x28
+  32140 ~$0.25	# 2x4 Elbow x32
+  40490 ~$0.31	# 9u Beam x10 (Brown?)
+  32523 ~$0.15	# 3u Beam x12 (Brown)
+  63869 ~$0.27	# 3u Beam w. axle connector x12
+  99010 ~$0.57	# 3x3 spinning gear deck x4 top
+  99009 ~$0.49	# 3x3 spinning gear deck x4 bottom
+  32556 ~$0.12	# tan 3u pin x12
+  64781 ~$0.70	# Steering Gear Rack x1

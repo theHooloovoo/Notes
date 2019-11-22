@@ -1,0 +1,6 @@
+# List of shit I always seem to forget.
+# Stop fucking up.
+
+# Reset the time on my machine
+-- timedatectl set-time "YYYY-MM-DD hh:mm:ss"
+

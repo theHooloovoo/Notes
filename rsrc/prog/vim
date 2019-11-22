@@ -22,6 +22,12 @@ Search:
   :%s/OLD/NEW/g		# Replace all occurences of OLDwith NEW
   :%s/OLD/NEW/gc	# Same as above, but ask for confirmations
 
+Ex:
+  ':tab all':
+    - If opening multiple files at launch, open each in
+      their own tab.
+  
+
 Macros:
   q<letter>[commands]q	# Press q to enter macro record mode.
                         # Press a letter to select a register.

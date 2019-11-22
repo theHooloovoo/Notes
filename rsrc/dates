@@ -1,10 +1,32 @@
 # Written by theHooloovoo
 
-2018-06-08 "Yob Album Releases"
-2018-06-24 "Move into New Apartment"
-2018-07-08 "Yob/Bell Witch Concert"
+2018-06-08:
+  desc:  "Yob Album Releases"
+  where: "N/A"
+  time:  "All day"
 
-2018-06-17 "Father's Day"
+2018-06-24:
+  desc: "Move into New Apartment"
 
-2018-08-27 "College Semester Starts"
-2018-12-14 "Last Class Day of Fall Semester"
+2018-07-08:
+  desc:  "Yob/Bell Witch Concert"
+  where: "Reggie's Theater, Chicago IL"
+  time:  "8pm-12pm"
+
+2018-06-17:
+  desc: "Father's Day"
+
+2019-08-26:
+  desc: "Fall Semester Starts"
+
+2019-12-14:
+  desc: "Last Class Day of Fall Semester"
+
+2020-01-06:
+  desc: "Winter Semester Starts"
+
+2020-03-19:
+  desc: "Registration for next semester starts?"
+
+2020-04-25:
+  desc: "Last Week of Winter Semester"

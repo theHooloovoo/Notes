@@ -1,0 +1,78 @@
+# Personal notes on CSS.
+# https://codetheweb.blog
+
+Basic Structure:
+  - CSS is composed of Selectors & Declarations.
+
+  - Selectors have curly braces that are used to contain
+    properties.
+    - Element Selectors:
+      - Operate on 'HTML' elements ('<h1>',
+        '<div>', etc...)
+    - Class Selectors:
+      - Operate on the modifiers of 'HTML'.
+      - Their name starts with a '.'.
+      - Ex: Given an 'HTML' tag '<h2 class="something">'
+        the accompanying selector will look like:
+        '.something { ... }'.
+    - ID Selectors:
+      - Similar to class selectors, but for IDs.
+      - Their name starts with a '#'.
+      - Ex: Given an 'HTML' tag '<h2 id="something">'
+        the accompanying selector will look like:
+        '#something { ... }'.
+    - You can select a specific type of thing from inside
+      another specific type of different thing by doing
+      'thing1 thing2 { ... }'
+      - This can even nest to arbitrary depths.
+
+Properties go inside of selectors and are of the form:
+  - 'property: value;'
+
+'color':
+  - Color Name: 'red', 'blue', 'green', 'BlanchedAlmond'
+    - Full List: # https://htmlcolorcodes.com/color-names
+    - RGB Value:  'rgb(INT, INT, INT)'
+      - 'INT' is an integer value from 0 to 255.
+    - RGBA Value: 'rgb(INT, INT, INT, 0.0-1.0)'
+      - The last value is the alpha channel (opacity)
+      - Give it a decimal value from 0.0 to 1.0
+    - Hex Value: '#RRGGBB'
+      - Each pair of digits encodes a hexadecimal
+        value, anywhere from '00' up to 'FF'.
+    - Color Picker Tool: # https://htmlcolorcodes.com/color-picker
+      Also has some nice color theory explanation.
+
+'background-color':
+  - Takes the same values as 'color' does.
+
+'background-image':
+  - Provide a path to the file:
+    - 'background-image: url( ... )'
+  - Only affects the bounding box that contains the
+    text.
+
+'font-size':
+  - Value is 'INT' or 'INTpx'.
+    - Examples: '42' or '42px'.
+
+'text-aling':
+  - Takes one of 4 values: 'Left', 'Right', 'Center',
+    or 'Justify'.
+
+'width' and 'height':
+  - Hardcodes the dimensions of some element.
+
+'margin':
+  - Sets the margin on all sides of an element.
+  - 'margin-left', 'margin-right', 'margin-top' &
+    'margin-bottom' are all variations on 'margin'.
+
+'padding':
+  - Sets the inner padding on all sides of an element.
+  - 'padding-left', 'padding-right', 'padding-top' &
+    'padding-bottom' are all variations on 'padding'.
+
+Comments:
+  - Only multiline comments are supported.
+  - /* ... */

@@ -109,23 +109,34 @@ Kadeshian Fort City Folk: # ===============================
     Kobold, Neutral, Mature
     Humble stone-worker
     Makes statues with his family
-  Geeg-Molne
+  "Geeg-Molne":
     Kobold, Blue, Mature
-    Rich, kind of douchey
+    Rich, douchey
     Thinks lowly of non-kobolds
-  "Igra":
-    Kobold, Neutral
-    Bar Owner, "Miirik Okarthel"
-    - Very Passionate about brewing liquers, cooking food.
-    - Slightly heavy-set.
-    - Humorous.
-    - Not particularly religious, polically aloof.
-  "Assri":
-    - Wife of Igra
-    - Master chef.
-    - Not very humorous
+  "Grosg Clan":	#----------------------
+    "Igra Sveg-Grosg":
+      Kobold, Neutral
+      Bar Owner, "Miirik Okarthel"
+      - Very Passionate about brewing liquers, cooking food.
+      - Slightly heavy-set.
+      - Humorous.
+      - Not particularly religious, polically aloof.
+    "Assri Sven-Grosg":
+      - Wife of Igra
+      - Master chef.
+      - Not very humorous
   "Lozro":
     - Kobold, Neutral
     - Secretly a rebel, tries to sow distrust against the
       ruling class.
+  "Bwagi":
+    - Shady Theif (Rogue 6)
+    - Person trafficer for "Ditrask Volm".
+  "Gijuk":
+    - Kadeshian Noble, Representative of the Prince
+    - Accompanied by 6 rangers & 4 sorcerers and 2 clerics
+    - Holds a powerful maigc item.
+  "Monid Clan":	#----------------------
+    "Migelo Al-Vrex Monid":
+    "Krux-tok Oss-Vrex Monid":
 
