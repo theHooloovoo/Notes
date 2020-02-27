@@ -1,0 +1,234 @@
+# Study aid to learning French.
+
+Flashcards:
+  Desk:
+    Name:	Bureau
+    Gender:	Masculine
+    Tags:
+      - Furniture
+  
+  Notebook:
+    Name:	Cahier
+    Gender:	Masculine
+    Tags:
+      - Small
+      - School
+  
+  Chair:
+    Name:	Chaise
+    Gender:	Femenine
+    Tags:
+      - Furniture
+      - Scool
+  
+  Pencil:
+    Name:	Crayon
+    Gender:	Masculine
+    Tags:
+      - School
+      - Small
+  
+  Book:
+    Name:	Livre
+    Gender:	Feminine
+    Tags:
+      - Small
+      - School
+  
+  Classroom:
+    Name:	Salle de Classe
+    Gender:	Feminine
+    Tags:
+      - Room
+      - School
+  
+  Pen:
+    Name:	Stylo
+    Gender:	Masculine
+    Tags:
+      - Small
+      - School
+  
+  Chalkboard:
+    Name:	Tableau
+    Gender:	Masculine
+    Tags:
+      - School
+      - Large
+  
+  Window:
+    Name:	Fenetre
+    Gender:	Feminine
+    Tags:
+      - Room
+  
+  Door:
+    Name:	Porte
+    Gender:	Feminine
+    Tags:
+      - Room
+  
+  Clock:
+    Name:	Montre
+    Gender:	Feminine
+    Tags: null
+  
+  Fridge:
+    Name:	Refrigerateur
+    Gender:	Masculine
+    Tags:
+      - Furniture
+      - Utility
+  
+  Pillow:
+    Name:	Oreiller
+    Gender:	Masculine
+    Tags:
+      - Bed
+  
+  Closet:
+    Name:	Armoire
+    Gender:	Feminine
+    Tags:
+      - Room
+  
+  Bathroom:
+    Name:	Salle de Bains
+    Gender:	Feminine
+    Tags:
+      - Room
+      - Utility
+  
+  Bed:
+    Name:	Lit
+    Gender:	Masculine
+    Tags:
+      - Room
+  
+  House:
+    Name:	Maison
+    Gender:	Feminine
+    Tags:
+      - Building
+      - Room
+  
+  Flat:
+    Name:	Appartement
+    Gender:	Masculine
+    Tags:
+      - Building
+      - Room
+  
+  Kitchen:
+    Name:	Cuisine
+    Gender:	Feminine
+    Tags:
+      - Room
+  
+  Computer:
+    Name:	Ordinateur
+    Gender:	Masculine
+    Tags:
+      - Tech
+      - Utility
+  
+  Oven:
+    Name:	Four
+    Gender:	Masculine
+    Tags:
+      - Building
+      - Utility
+  
+  Mirror:
+    Name:	Miroir
+    Gender:	Masculine
+    Tags:
+      - Decor
+  
+  Carpet:
+    Name:	Tapis
+    Gender:	Masculine
+    Tags:
+      - Decor
+  
+  Roof:
+    Name:	Toit
+    Gender:	Masculine
+    Tags:
+      - Building
+  
+  Ceiling:
+    Name:	Plafond
+    Gender:	Masculine
+    Tags:
+      - Building
+  
+  Wall:
+    Name:	Mur
+    Gender:	Masculine
+    Tags:
+      - Room
+      - Building
+  
+  Fork:
+    Name:	Fourchette
+    Gender:	Feminine
+    Tags:
+      - Utensile
+  
+  Knife:
+    Name:	Couteau
+    Gender:	Masculine
+    Tags:
+      - Utensile
+  
+  Spoon:
+    Name:	Cuillere
+    Gender:	Feminine
+    Tags:
+      - Utensile
+  
+  Room:
+    Name:	Chambre
+    Gender:	Feminine
+    Tags:
+      - Room
+      - Building
+  
+  Sheet:
+    Name:	Drap
+    Gender:	Masculine
+    Tags:
+      - Decor
+  
+  Terrace:
+    Name:	Terrasse
+    Gender:	Feminine
+    Tags:
+      - Room
+      - Building
+  
+  Glass:
+    Name:	Vase
+    Gender:	Masculine
+    Tags:
+      - Room
+      - Building
+  
+  Dish:
+    Name:	Plat
+    Gender:	Masculine
+    Tags:
+      - Utensile
+      - Decor
+  
+  xxx:
+    Name:	xxx
+    Gender:	Masculine
+    Gender:	Feminine
+    Tags:
+      - 
+
+Unknown:
+  - Path
+
